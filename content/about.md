@@ -21,4 +21,4 @@ Write me an [email](mailto:justin.richard.zimmerman@gmail.com).
 
 Built with [Hugo](http://gohugo.io/).
 <br>Hosted on [Github Pages](https://pages.github.com/).
-<br>Feel free to [fork](https://github.com/jrzimmerman/jrzimmerman.github.io), change, modify and re-use this blog.
+<br>Feel free to [fork](https://github.com/jrzimmerman/justinzimmerman.net), change, modify and re-use this blog.

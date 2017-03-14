@@ -20,5 +20,6 @@ Write me an [email](mailto:justin.richard.zimmerman@gmail.com).
 #### Site's stack:
 
 Built with [Hugo](http://gohugo.io/).
-<br>Hosted on [Amazon Web Services](https://aws.amazon.com/). Static content on S3, domain registered with Route 53, and content delivered with CloudFront. 
+<br>Hosted on [Amazon Web Services](https://aws.amazon.com/).
+<br>Static content on S3, domain registered with Route 53, and content delivered with CloudFront. 
 <br>Feel free to [fork](https://github.com/jrzimmerman/justinzimmerman.net), change, modify and re-use this blog.

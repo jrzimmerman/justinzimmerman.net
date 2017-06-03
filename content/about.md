@@ -13,7 +13,7 @@ Hi, I'm Justin Zimmerman.
 
 <img src="/img/justin.jpeg" width="250" height="250" />
 
-I work at Uber's Advanced Technology Group as a Software Engineer in Pittsburgh, PA.
+I work at Uber's Advanced Technologies Group as a Software Engineer in Pittsburgh, PA.
 
 Follow me on [Github](https://github.com/jrzimmerman) and [Twitter](https://twitter.com/justzimmerman).<br>
 Connect on [Linkedin](https://www.linkedin.com/in/justinrzimmerman) and [Facebook](https://www.facebook.com/JustinRichardZimmerman).<br>

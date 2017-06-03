@@ -11,5 +11,7 @@ Please find the steps to build and deploy that you've probably forgotten about b
   * Test things out locally with `hugo server`
   * Upgrade `pip` and `awscli` with `pip install --upgrade pip awscli`
   * Switch to public folder `cd public`
-  * S3 Upload with Cache Control `aws s3 sync . s3://justinzimmerman.net --force --cache-control max-age=86400`
+  * S3 Upload with Cache Control `aws s3 sync . s3://justinzimmerman.net --force --delete --cache-control max-age=86400 --acl public-read`
   * (optional) create a cache invalidation on Cloudfront
+
+aws cli `sync` will only modify items that need changed, therefore, if cache-control is not working property, empty the bucket, and run the sync command above, do not upload on the s3 dashboard

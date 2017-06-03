@@ -9,5 +9,7 @@ Please find the steps to build and deploy that you've probably forgotten about b
   * `brew update && brew upgrade` to get the latest version of Hugo
   * Run `hugo` to build
   * Test things out locally with `hugo server`
+  * Upgrade `pip` and `awscli` with `pip install --upgrade pip awscli`
+  * Switch to public folder `cd public`
   * S3 Upload with Cache Control `aws s3 sync . s3://justinzimmerman.net --force --cache-control max-age=86400`
   * (optional) create a cache invalidation on Cloudfront

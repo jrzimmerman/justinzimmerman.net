@@ -4,8 +4,11 @@ Dear future Justin,
 
 If you've found yourself here, you're probably being ambitious and updating your blog again.
 
-If you just cloned the repo (again), update the theme submodule
+If you just cloned the repo (again), pull the theme git submodule
 `git submodule update --init --recursive`
+
+To update the theme submodule run
+`git submodule update --recursive --remote`
 
 Please find the steps to build and deploy that you've probably forgotten about by now:
 

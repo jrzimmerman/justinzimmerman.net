@@ -16,9 +16,9 @@ Please find the steps to build and deploy that you've probably forgotten about b
 * `brew install hugo` to get the latest version of Hugo
 * Run `hugo` to build
 * Test things out locally with `hugo server`
-* Switch to public folder `cd public`
 * `brew install awscli` to get the latest version of the aws cli
 * Set up aws cli with `aws configure`
+* Switch to public folder `cd public`
 * S3 Upload with Cache Control `aws s3 sync . s3://justinzimmerman.net --force --delete --cache-control max-age=172800 --acl public-read --profile justinzimmerman`
 * (optional) create a cache invalidation on Cloudfront
 

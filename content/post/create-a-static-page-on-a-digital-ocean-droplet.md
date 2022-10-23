@@ -13,6 +13,7 @@ type = "post"
 I currently use Digital Ocean to host my ghost blog. This has a been a very fun adventure, allowing me to learn the "ins and outs" of linux server administration.
 
 ##### What if we want to add a new static page?
+
 Using a ghost blog is very easy and simple, but what if we want to add our projects to our site?
 
 This takes a little bit of work.
@@ -84,7 +85,7 @@ We have just created an alias to a folder on the file system.
 
 ##### Restart nginx and ghost
 
-```
+```sh
     sudo service nginx restart
     sudo service ghost restart
 ```

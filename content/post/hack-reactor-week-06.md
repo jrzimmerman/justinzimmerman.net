@@ -16,7 +16,6 @@ Week 6 at Hack Reactor is when curriculum starts to shift from small "sprints" t
 
 This was probably one of my favorite sprints thus far. Using React to manage state, we created a [jukebox](https://jz-jukebox.herokuapp.com/) application that leverages the SoundCloud API. Using underscore's debounce function, when a user inputs a keyword, the user is shown 10 songs that fit the keyword.
 
-
 #### MVPs
 
 The MVP is all about finding the right idea, with the right scope, and pushing through to deploy a minimum viable product, in just two days. I created [Geotinerary](https://geotinerary.herokuapp.com/#/) using Angular, Firebase, Leaflet, and Mapbox.js. This was a very fun project that I hope to have more time to polish up.

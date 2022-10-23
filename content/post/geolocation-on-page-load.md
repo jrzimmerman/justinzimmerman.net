@@ -13,6 +13,7 @@ type = "post"
 While building [Geotinerary](https://geotinerary.herokuapp.com/), I wanted the map to zoom relatively close to the users location. Surprisingly enough, this was quite hard to find an example of.
 
 #### HTML5 and IPs
+
 Traditionally, when a webpage wants your location, we use the native HTML5. While this isn't a terrible idea and can have much more accurate results, there is another method to find your users location that doesn't require the use of HTML5 geolocation, the users IP address.
 
 #### HTML5 Geolocation

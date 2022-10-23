@@ -18,9 +18,6 @@ Let's dive into what each of the triggers are and what we can do about them.
 
 ### Spiraling Triggers
 
-
-![Spiral](http://i.giphy.com/T1qCytOwqL6A8.gif)
-
 This first type of trigger is what happens when our plan starts to "spiral downward" and ultimately fall apart the moment when we realize our initial solution to the problem *isn't* going to work.
 
 When I first started attempting technical questions, or what I like to call *"toy problems"*, spiraling triggers were the demise of many solutions. So what can we do about them?
@@ -30,8 +27,6 @@ The first step is **recognizing** that you have started to spiral downward. It s
 > Thoughts of "Oh man, my solution doesn't work. I can't solve this. What am I even doing here? I can't believe I am wasting this interviewers time!" can easily start creeping into the mind.
 
 We need to recognize when the spiraling starts, and quickly break out of it. **Take a deep breath, and stand up straight.** Seriously. It helps.
-
-![sigh](http://i.giphy.com/3o85xGwYPfshlyYLCM.gif)
 
 We need to get oxygen back into our brains and start thinking down the correct path again. Wasting brain power on how we aren't solving the problem won't help us find a solution.
 
@@ -91,7 +86,7 @@ After visualizing the new information, our next step is to create example data t
 
 If we realize our problem needs a function that will require a callback to store data asynchronously, think of example data that we can provide to our solution.
 
-```
+```js
   asyncMap([
    function(cb){
      setTimeout(function(){
@@ -120,7 +115,8 @@ It is imperative that our example data includes edge cases. The more edge cases 
 This is a critical step that I am continuing to work on while solving toy problems.
 
 We want to write in-line pseudocode as if we were the compiler. Using our example data created in the previous step, iterate through each line of the pseudocode. We want to write down what our variables store at each pass.
-```
+
+```js
 // after 100ms
 // 2
 // counter = 1
@@ -133,7 +129,7 @@ We want to write in-line pseudocode as if we were the compiler. Using our exampl
 // counter = 2
 // result = [,, 'two']
 // check if 2 === 2 -> true
-		// callback(result) Boom! // -> ['one, 'two']
+// callback(result) Boom! // -> ['one, 'two']
 ```
 
 This allows us even greater insight to any flaws within our pseudocode.
@@ -148,12 +144,10 @@ We want to be sure to finish iterating through pseudocode with our example data 
 
 When in whiteboarding situations, we only want to be doing 2 out of 3 tasks at all times:
 
--  thinking
--  writing
--  talking
+- thinking
+- writing
+- talking
 
 When we do more than 2 of these things at once, we are at risk of spiraling. This is why it is important that we have complete pseudocode before we start coding. We now only have to worry about the last 2 points: **writing** and **talking** when writing actual code.
-
-![everything](http://i.giphy.com/mNpgNpZmflO3S.gif)
 
 Thanks for taking the time to read this lengthy post. If you can remember these steps I guarantee you will not only come to a solution, but impress your interviewer along the way.

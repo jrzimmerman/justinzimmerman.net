@@ -13,6 +13,7 @@ type = "post"
 Week 9 is finished at Hack Reactor, and thesis projects are in full swing! While there aren't many things on the schedule, thesis is all about trying to build the best product in the 3 short weeks you have dedicated to it.
 
 ### Thesis
+
 To start, this is a perfect summary of life during thesis:
 
 ![thesis](http://i.imgur.com/wJ4IcDJ.gif)

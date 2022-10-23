@@ -22,7 +22,7 @@ The testing package has most everything you need for writing unit tests. Below i
 package main
 
 import (
-  "encoding/json"
+	"encoding/json"
 	"io/ioutil"
 	"os"
 	"testing"

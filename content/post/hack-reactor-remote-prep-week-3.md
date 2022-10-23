@@ -10,7 +10,6 @@ type = "post"
 
 +++
 
-
 <p style="text-align: center"><a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/">Week 1</a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/">Week 2</a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/"><b>Week 3</b></a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/">Week 4</a></p>
 
 I cannot believe we have already completed 3 weeks of class! I have learned a considerable amount along the way. Here are some of the topics that were covered this week.

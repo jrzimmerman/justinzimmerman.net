@@ -33,5 +33,3 @@ One of the hardest parts of writing an effective resume, is not writing every ac
 While you might have had several accomplishments in your previous profession, if they do not directly show how great a programmer you are or how you are able to get things done, those achievements should be omitted.
 
 Thanks for reading! Time for a relaxing solo week, and onward to week 8 and legacy projects!
-
-

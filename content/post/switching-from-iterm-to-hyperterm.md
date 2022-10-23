@@ -30,7 +30,7 @@ Changing the theme is as simple as adding `hyper-solarized-dark` to the plugins 
 
 You can find many other plugins at the [awesome-hyper](https://github.com/bnb/awesome-hyper) github repository.
 
-```
+```js
 plugins: [
     'hyper-solarized-dark',
   ]
@@ -40,7 +40,7 @@ Save the configuration, and Hyper will automatically update for you.
 
 I also enjoy using the `hyperlinks` plugin to open links with your browser, we can also add this to the plugins array.
 
-```
+```js
 plugins: [
     'hyper-solarized-dark',
     'hyperlinks'
@@ -49,14 +49,14 @@ plugins: [
 
 Since I use ZSH with a Powerline font, I can simply update the fonts to include `Meslo LG L DZ for Powerline`.
 
-```
+```js
 // font family with optional fallbacks
 fontFamily: '"Meslo LG L DZ for Powerline", Monaco, Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
 ```
 
 We can also modify the default window size of Hyper terminal.
 
-```
+```js
 // size of window by pixels (width, height)
 windowSize: [1000, 500]
 ```

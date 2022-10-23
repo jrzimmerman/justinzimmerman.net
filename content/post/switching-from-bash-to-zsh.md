@@ -20,20 +20,20 @@ While this isn't necessary, it's incredibly straightforward to do. The default v
 
 ### Download ZSH
 
-```
+```sh
 brew update
 brew install zsh
 ```
 
 Once installation is completed, we need to insert the location into `/etc/shells`
 
-```
+```sh
  sudo vim /etc/shells
 ```
 
 Insert the following line to the end of the file
 
-```
+```sh
 /usr/local/bin/zsh
 ```
 
@@ -41,13 +41,13 @@ This is the file path that homebrew system linked ZSH to.
 
 To set the default shell to ZSH
 
-```
+```sh
 chsh -s /usr/local/bin/zsh
 ```
 
 This might require a restart, but once completed verify zsh is your default shell by running
 
-```
+```sh
 echo $SHELL
 ```
 
@@ -59,7 +59,7 @@ The [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) repository is a very 
 
 To install oh-my-zsh run the following
 
-```
+```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
@@ -71,12 +71,13 @@ It comes with the "robbyrussell" theme as default, but I wanted something a bit 
 
 To switch themes, open your .zshrc file and replace this line
 
-```
+```sh
 ZSH_THEME="robbyrussell"
 ```
+
 with
 
-```
+```sh
 ZSH_THEME="agnoster"
 ```
 
@@ -88,15 +89,16 @@ The only problem is that the agnoster theme requires [Powerline fonts](https://g
 
 First, clone down the `powerline/fonts` repository into your github work folder
 
-```
+```sh
 git clone https://github.com/powerline/fonts.git
 ```
 
 Then `cd fonts` into the fonts repository and run
 
-```
+```sh
 ./install.sh
 ```
+
 Once completed, this also might require a restart to show the new fonts available.
 
 In your terminal (iTerm2 or HyperTerm) change the default font to one of the "for powerline" fonts. I chose `Meslo for Powerline`.

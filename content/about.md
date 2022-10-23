@@ -13,15 +13,15 @@ Hi, I'm Justin Zimmerman.
 
 <img src="/img/justin.jpeg" width="250" height="250" />
 
-I work at Uber's Advanced Technologies Group as a Software Engineer in Pittsburgh, PA.
+I work at Aurora as a Staff Software Engineer in Pittsburgh, PA.
 
-Follow me on [Github](https://github.com/jrzimmerman) and [Twitter](https://twitter.com/justzimmerman).<br>
-Connect on [Linkedin](https://www.linkedin.com/in/justinrzimmerman).<br>
+Follow me on [Github](https://github.com/jrzimmerman) and [Twitter](https://twitter.com/justzimmerman).
+Connect on [Linkedin](https://www.linkedin.com/in/justinrzimmerman).
 Write me an [email](mailto:justin.richard.zimmerman@gmail.com).
 
-#### Site's stack:
+#### Site's stack
 
 Built with [Hugo](http://gohugo.io/).
-<br>Hosted on [Amazon Web Services](https://aws.amazon.com/).
-<br>Static content hosted on S3, domain registered with Route 53, and content delivered with CloudFront CDN. 
-<br>Feel free to [fork](https://github.com/jrzimmerman/justinzimmerman.net), change, modify and re-use this blog. 
+Hosted on [Amazon Web Services](https://aws.amazon.com/).
+Static content hosted on S3, domain registered with Route 53, and content delivered with CloudFront CDN.
+Feel free to [fork](https://github.com/jrzimmerman/justinzimmerman.net), change, modify and re-use this blog.
